@@ -1,0 +1,29 @@
+<!doctype html>
+<script src="jquery.js"></script>
+
+<body>
+  <h1>Convert Gem.com CSV to LinkedIn Recruiter upload CSV<h1>
+
+<h3 style="color:red;">Note: This will not import empty email addresses</h3>
+<h3>Last names for candidates are also required.</h3>
+<h3>How To Use:
+</br></br>
+  1. Download your project CSV file from Gem. This will be the contacts you could only find work/yahoo/edu email addresses for. (Note: This needs to be under 200 contacts)</br>
+  2. Import this file and hit parse imported file.</br>
+  3. Download converted file</br>
+  4. Upload to LinkedIn recruiter via project settings > import.</br>
+
+</h3>
+
+<h3>Import</h3>
+<input type="file" id="file"></input></br></br>
+<button id="submit_button">Parse Imported File</button>
+</br>
+</br>
+<div id='status'></div>
+</br>
+<button id="download_CSV">Download LinkedIn Import CSV</button>
+
+<script src="parsecall.js"></script>
+<!-- <script src="arrayTesting.js"></script> -->
+</body>
